@@ -1,102 +1,239 @@
-<!DOCTYPE html>
-<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Розклад занять - Крохи Максима</title>
+    <title>Розклад пар - Крохи Максима</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Заголовок сторінки -->
     <header>
-        <h1>Розклад занять - Крохи Максима</h1>
+        <h1>Розклад пар на місяць - Крохи Максима</h1>
     </header>
 
-    <!-- Меню навігації -->
-    <nav class="nav">
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="practical.html">Практичні роботи</a></li>
-            <li><a href="labs.html">Лабораторні заняття</a></li>
-            <li><a href="schedule.html">Розклад занять</a></li>
-        </ul>
-    </nav>
 
-    <!-- Секція з таблицею розкладу занять -->
-    <section id="schedule">
-        <h2>Розклад занять на місяць</h2>
+        <!-- Меню навігації -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="practical.html">Практичні роботи</a></li>
+                <li><a href="labs.html">Лабораторні заняття</a></li>
+                <li><a href="schedule.html">Розклад пар</a></li>
+            </ul>
+        </nav>
+
+    <section>
         <table>
-            <thead>
-                <tr>
-                    <th>День</th>
-                    <th>Час</th>
-                    <th>Предмет</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Понеділок</td>
-                        <td>08:00 - 09:35
-                            <br>11:45 - 13:20
-                                <br>13:30 - 15:05
-                                </td>
-                             <td>Вища Математика ЛК
-                         <br>ООП ЛК
-                        <br>Філософія ЛК
-                    </td>
-
-                    
-                </tr>
-                <tr>
-                    <td>Вівторок</td>
-                        <td>08:00 - 09:35
-                            <br>09:45 - 11:20
-                                <br>11:45 - 13:20
-                                </td>
-                                <td>ООП-2016
-                            <br>Дослідження операцій
-                        <br>Веб-Технології
-                    </td>
-
-                    
-                </tr>
-                <tr>
-                    <td>Середа</td>
-                    <td>-</td>
-                    <td>Пар немає</td>
-                </tr>
-                <tr>
-                    <td>Четвер</td>
-                    <td>-</td>
-                    <td>Пар немає</td>
-                </tr>
-
-                <tr>
-                    <td>П'ятниця</td>
-                        <td>11:45 - 13:20
-                            <br>13:30 - 15:05
-                                <br>15:15 - 16:50
-                                    <br>17:00 - 18:35
-                                <td>ПППІ-15
-                                <br>Вища Математика
-                            <br>Вища Математика
-                        <br>Фізичне Виховання
-                    </td>
-
-                    
-                </tr>
-
-
-
-
-
-                
-                <!-- Додати інші дні та заняття -->
-            </tbody>
+            <tr>
+                <th class="headday">Пн</th>
+                    <th class="headdate"><div>16.09.2024</div></th>
+                        <th class="headdate"><div>23.09.2024</div></th>
+                            <th class="headdate"><div>30.09.2024</div></th>
+                        <th class="headdate"><div>07.10.2024</div></th>
+                    <th class="headdate"><div>14.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">09:35</span> </th>
+                        <td><div class="lesson-1"> ВМ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Білоусова С.В.</i> </div></td>
+                            <td><div class="lesson-1"> ВМ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Білоусова С.В.</i> </div></td>
+                            <td><div class="lesson-1"> ВМ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Білоусова С.В.</i> </div></td>
+                        <td><div class="lesson-1"> ВМ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Білоусова С.В.</i> </div></td>
+                    <td><div class="lesson-1"> ВМ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Білоусова С.В.</i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">2 пара</span> <span class="start">09:45</span> <span class="end">11:20</span> </th>
+                    <td><div class="lesson-1"> ПППІ-15<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Сватко В.В.</i> </div></td>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Сватко В.В.</i> </div></td>
+                            <td><div class="lesson-1"> ДО<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Бажан Т.О.</i> </div></td>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Сватко В.В.</i> </div></td>
+                    <td><div class="lesson-1"> ДО<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Бажан Т.О.</i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">3 пара</span> <span class="start">11:45</span> <span class="end">13:20</span> </th>
+                    <td><div class="lesson-1"> WEB тех.<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Дзюба В.В.</i> </div></td>
+                        <td><div class="lesson-1"> WEB тех.<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Дзюба В.В.</i> </div></td>
+                            <td><div class="lesson-1"> ООП<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Вишнівський О.В.</i> </div></td>
+                        <td><div class="lesson-1"> WEB тех.<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Дзюба В.В.</i> </div></td>
+                    <td><div class="lesson-1"> ООП<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Вишнівський О.В.</i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">4 пара</span> <span class="start">13:30</span> <span class="end">15:05</span> </th>
+                    <td>&nbsp;</td>
+                        <td><div class="lesson-1"> ФЛ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Власенко В.О.</i> </div></td>
+                            <td><div class="lesson-1"> ФЛ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Власенко В.О.</i> </div></td>
+                        <td>&nbsp;</td>
+                    <td><div class="lesson-1"> ФЛ<strong>[Лк]</strong><br><strong>ауд. Дистанц.</strong><br><i>Власенко В.О.</i> </div></td>
+            </tr>
         </table>
     </section>
 
-    <!-- Футер -->
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Вт</th>
+                    <th class="headdate"><div>17.09.2024</div></th>
+                        <th class="headdate"><div>24.09.2024</div></th>
+                            <th class="headdate"><div>01.10.2024</div></th>
+                        <th class="headdate"><div>08.10.2024</div></th>
+                    <th class="headdate"><div>15.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">09:35</span> </th>
+                        <td><div class="lesson-1"> ООП-2016<strong>[ЛБ]</strong><br><strong>ауд. 132.</strong><br><i>Вишнівський О.В.</i> </div></td>
+                            <td><div class="lesson-1"> ООП-2016<strong>[ПЗ]</strong><br><strong>ауд. 219.</strong><br><i>Вишнівський О.В.</i> </div></td>
+                                <td><div class="lesson-1"> ООП-2016<strong>[ЛБ]</strong><br><strong>ауд. 132.</strong><br><i>Вишнівський О.В.</i> </div></td>
+                            <td><div class="lesson-1"> ООП-2016<strong>[ПЗ]</strong><br><strong>ауд. 219.</strong><br><i>Вишнівський О.В.</i> </div></td>
+                        <td><div class="lesson-1"> ООП-2016<strong>[ЛБ]</strong><br><strong>ауд. 132.</strong><br><i>Вишнівський О.В.</i> </div></td>
+
+            <tr>
+                <th class="headcol"> <span class="lesson">2 пара</span> <span class="start">09:45</span> <span class="end">11:20</span> </th>
+                        <td><div class="lesson-1"> ДО<strong>[ЛБ]</strong><br><strong>ауд. 301.</strong><br><i>Бажан Т.О.</i> </div></td>
+                            <td><div class="lesson-1"> ДО<strong>[ПЗ]</strong><br><strong>ауд. 320.</strong><br><i>Бажан Т.О.</i> </div></td>
+                                <td><div class="lesson-1"> ДО<strong>[ЛБ]</strong><br><strong>ауд. 301.</strong><br><i>Бажан Т.О.</i> </div></td>
+                            <td><div class="lesson-1"> ДО<strong>[ПЗ]</strong><br><strong>ауд. 320.</strong><br><i>Бажан Т.О.</i> </div></td>
+                        <td><div class="lesson-1"> ДО<strong>[ЛБ]</strong><br><strong>ауд. 301.</strong><br><i>Бажан Т.О.</i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">3 пара</span> <span class="start">11:45</span> <span class="end">13:20</span> </th>
+                    <td><div class="lesson-1"> WEB-Тех.-2016<strong>[ЛБ]</strong><br><strong>ауд. 221.</strong><br><i>Дзюба В.В.</i> </div></td>
+                        <td><div class="lesson-1"> WEB-Тех.-2016<strong>[ПЗ]</strong><br><strong>ауд. 0-25.</strong><br><i>Дзюба В.В.</i> </div></td>
+                            <td><div class="lesson-1"> WEB-Тех.-2016<strong>[ЛБ]</strong><br><strong>ауд. 221.</strong><br><i>Дзюба В.В.</i> </div></td>
+                        <td><div class="lesson-1"> WEB-Тех.-2016<strong>[ПЗ]</strong><br><strong>ауд. 0-25.</strong><br><i>Дзюба В.В.</i> </div></td>
+                    <td><div class="lesson-1"> WEB-Тех.-2016<strong>[ЛБ]</strong><br><strong>ауд. 221.</strong><br><i>Дзюба В.В.</i> </div></td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Ср</th>
+                    <th class="headdate"><div>18.09.2024</div></th>
+                        <th class="headdate"><div>25.09.2024</div></th>
+                            <th class="headdate"><div>02.10.2024</div></th>
+                        <th class="headdate"><div>09.10.2024</div></th>
+                    <th class="headdate"><div>16.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">- 09:35</span> </th>
+
+        </table>
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Чт</th>
+                    <th class="headdate"><div>19.09.2024</div></th>
+                        <th class="headdate"><div>26.09.2024</div></th>
+                            <th class="headdate"><div>03.10.2024</div></th>
+                        <th class="headdate"><div>10.10.2024</div></th>
+                    <th class="headdate"><div>17.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">- 09:35</span> </th>
+
+        </table>
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Пт</th>
+                    <th class="headdate"><div>20.09.2024</div></th>
+                        <th class="headdate"><div>27.09.2024</div></th>
+                            <th class="headdate"><div>04.10.2024</div></th>
+                        <th class="headdate"><div>11.10.2024</div></th>
+                    <th class="headdate"><div>18.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">2 пара</span> <span class="start">09:45</span> <span class="end">11:20</span> </th>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                            <td><div class="lesson-1"> УМ-2022<strong>[ПЗ]</strong><br><strong>ауд. 129.</strong><br><i>Стежко С.О.</i> </div></td>
+                                <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                                <td><div class="lesson-1"> УМ-2022<strong>[ПЗ]</strong><br><strong>ауд. 129.</strong><br><i>Стежко С.О.</i> </div></td>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+
+            <tr>
+                <th class="headcol"> <span class="lesson">3 пара</span> <span class="start">11:45</span> <span class="end">13:20</span> </th>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[ПЗ]</strong><br><strong>ауд. 207.</strong><br><i>Сватко В.В</i> </div></td>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[ПЗ]</strong><br><strong>ауд. 207.</strong><br><i>Сватко В.В</i> </div></td>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[ПЗ]</strong><br><strong>ауд. 207.</strong><br><i>Сватко В.В</i> </div></td>
+                        <td><div class="lesson-1"> ПППІ-15<strong>[ПЗ]</strong><br><strong>ауд. 207.</strong><br><i>Сватко В.В</i> </div></td>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">4 пара</span> <span class="start">13:30</span> <span class="end">15:05</span> </th>
+                    <td><div class="lesson-1"> ВМ<strong>[ПЗ]</strong><br><strong>ауд. 511.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                    <td><div class="lesson-1"> ВМ<strong>[ПЗ]</strong><br><strong>ауд. 511.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                    <td><div class="lesson-1"> ВМ<strong>[ПЗ]</strong><br><strong>ауд. 511.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                    <td><div class="lesson-1"> ВМ<strong>[ПЗ]</strong><br><strong>ауд. 511.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                    <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">5 пара</span> <span class="start">15:15</span> <span class="end">16:50</span> </th>
+                    <td><div class="lesson-1"> ВМ<strong>[ЛБ]</strong><br><strong>ауд. 517.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                        <td><div class="lesson-1"> ФЛ<strong>[Сем]</strong><br><strong>ауд. 223.</strong><br><i>Власенко В.О.</i> </div></td>
+                        <td><div class="lesson-1"> ВМ<strong>[ЛБ]</strong><br><strong>ауд. 517.</strong><br><i>Олімпієва Ю.І.</i> </div></td>
+                        <td><div class="lesson-1"> ФЛ<strong>[Сем]</strong><br><strong>ауд. 223.</strong><br><i>Власенко В.О.</i> </div></td>
+                    <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+            </tr>
+            <tr>
+                <th class="headcol"> <span class="lesson">6 пара</span> <span class="start">17:00</span> <span class="end">18:35</span> </th>
+                    <td><div class="lesson-1"> ФВ<strong>[ПЗ]</strong><br><strong>ауд. Стадіон.</strong><br><i>Безуглий Ю.Б.</i> </div></td>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                        <td><div class="lesson-1"> ФВ<strong>[ПЗ]</strong><br><strong>ауд. Стадіон.</strong><br><i>Безуглий Ю.Б.</i> </div></td>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                    <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Сб</th>
+                    <th class="headdate"><div>21.09.2024</div></th>
+                        <th class="headdate"><div>28.09.2024</div></th>
+                            <th class="headdate"><div>05.10.2024</div></th>
+                        <th class="headdate"><div>12.10.2024</div></th>
+                    <th class="headdate"><div>19.10.2024</div></th>
+            </tr>
+            <tr>
+                <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">09:45</span> </th>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                            <td><div class="lesson-1"> УМ-2022 <strong>[ПЗ]</strong><br><strong>ауд. Дистанційно</strong><br><i>Стежко С.О.</i> </div></td>
+                            <td><div class="lesson-1"><strong></strong><br><strong></strong><br><i></i> </div></td>
+                            <td><div class="lesson-1"> УМ-2022 <strong>[ПЗ]</strong><br><strong>ауд. Дистанційно</strong><br><i>Стежко С.О.</i> </div></td>
+                        <td><div class="lesson-1"> <strong></strong><br><strong></strong><br><i></i> </div></td>
+                </tr>
+
+        </table>
+    </section>
+
+
+    <section>
+        <table>
+            <tr>
+                <th class="headday">Нд</th>
+                    <th class="headdate"><div>22.09.2024</div></th>
+                        <th class="headdate"><div>29.09.2024</div></th>
+                            <th class="headdate"><div>06.10.2024</div></th>
+                        <th class="headdate"><div>13.10.2024</div></th>
+                    <th class="headdate"><div>20.10.2024</div></th>
+            </tr>
+            <tr>
+                    <th class="headcol"> <span class="lesson">1 пара</span> <span class="start">08:00</span> <span class="end">- 09:35</span> </th>
+
+        </table>
+    </section>
+
+
     <footer>
         <p>Контактні дані: maxkroha05@gmail.com | Соціальні мережі: <a href="https://github.com/Shoukezz">Github</a>
         <p>&copy; 2024 Максим Кроха. Всі права захищені мною.</p>

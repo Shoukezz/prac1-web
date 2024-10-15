@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторна №1. Основи HTML</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Підключення зовнішнього CSS -->
 </head>
 <body>
-    <h1>Лабораторне заняття №1. Основи HTML</h1>
-    <h2>Форма для заповнення даних реєстрації</h2>
-
     <form action="https://webhook.site/">
+        <h1>Лабораторне заняття №1. Основи HTML</h1>
+        <h2>Форма для заповнення даних реєстрації</h2>
+
         <label for="name">Ім'я користувача:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required>
 
         <label for="surname">Прізвище користувача:</label>
-        <input type="text" id="surname" name="surname" required><br><br>
+        <input type="text" id="surname" name="surname" required>
 
         <label for="email">Адреса електронної пошти:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
 
         <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <input type="password" id="password" name="password" required>
 
         <label for="confirm-password">Підтвердження паролю:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+        <input type="password" id="confirm-password" name="confirm-password" required>
 
         <label for="birthdate">Дата народження:</label>
-        <input type="date" id="birthdate" name="birthdate"><br><br>
+        <input type="date" id="birthdate" name="birthdate">
 
         <label for="gender">Стать:</label>
         <select id="gender" name="gender">
             <option value="male">Чоловік</option>
-            <option value="female">Жинка</option>
-            <option value="other">Існує тільки 2 гендери!</option>
-        </select><br><br>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+        </select>
 
-        <button type="submit">Send</button>
+        <button type="submit">Надіслати</button>
     </form>
 </body>
 </html>

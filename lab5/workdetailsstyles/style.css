@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.work-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.work-details h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.work-details p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.work-details .badge {
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.work-image {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #666;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}

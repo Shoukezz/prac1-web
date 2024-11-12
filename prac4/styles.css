@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(22, 50px); 
+    gap: 5px;
+    padding: 20px;
+    background-color: #71d8a3;
+    border-radius: 10px;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    text-align: center;
+    user-select: none;
+}
+
+.key.function {
+    background-color: #d3d3d3;
+}
+
+
+.key:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.key:active {
+    transform: scale(0.95);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.key.esc { background-color: #ffd723; }
+.key.space { grid-column: span 6; }
+.key.backspace { grid-column: span 2; }
+.key.tab { grid-column: span 2; }
+.key.enter { grid-column: span 2; }
+.key.shift { grid-column: span 2; }
+.key.capslock {  }
+.key.tilde { grid-column-start: 0; grid-column-end: 2;}
+.up-arrow, .down-arrow, .left-arrow, .right-arrow {
+    font-weight: bold;
+}
+.up-arrow {
+    grid-column-start: 17;
+}
+
+.key.numpad { background-color: #e0e0f0; }
+.key.number.four {
+    grid-column-start: 19;
+}
+.key.number.one {
+    grid-column-start: 19;
+}
+.key.numpad_enter {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 22;
+    height: 105px;
+}
+.key.number.plus {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 22;
+    height: 105px;
+}
+
+.key.active {
+    background-color: #888; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) inset; 
+}

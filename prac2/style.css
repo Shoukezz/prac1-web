@@ -1,4 +1,4 @@
-/* Фон сторінки та текст */
+
 body {
     background-color: #f0f8ff;
     color: #333;
@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-/* Стилі форми */
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -19,14 +19,14 @@ form {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Заголовки */
+
 h1, h2 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 15px;
 }
 
-/* Мітки та поля вводу */
+
 label {
     display: block;
     margin-bottom: 5px;
@@ -42,7 +42,7 @@ input, select {
     box-sizing: border-box;
 }
 
-/* Кнопка */
+
 button {
     width: 100%;
     padding: 10px;

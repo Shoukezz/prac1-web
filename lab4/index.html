@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Plan</title>
+    <link rel="stylesheet" href="style/style.css"> <!-- Підключення файлу стилів -->
+</head>
+<body>
+    <div class="weekly-planner">
+        <!-- Заголовок (хедер) -->
+        <div class="header">
+            <h1>Weekly Plan</h1>
+            <div class="week-of">
+                <label for="week">Week of:</label>
+                <input type="text" id="week" class="input-field" placeholder="dd/mm/yyyy">
+            </div>
+            <div class="habit">
+                <label for="habit">Healthy Habit:</label>
+                <input type="text" id="habit" class="input-field" placeholder="Your habit">
+            </div>
+        </div>
+
+        <!-- Ліва колонка: To-Do -->
+        <div class="left-column">
+            <div class="top-goals">
+                <h2>Top 3 Goals</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Goal 1">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Goal 2">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Goal 3">
+                    </li>
+                </ul>
+            </div>
+            <div class="everything-else">
+                <h2>Everything Else</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 1">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 2">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 3">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 4">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 5">
+                    </li>
+                </ul>
+            </div>
+            <div class="next-week">
+                <h2>Next Week</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 1">
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <input type="text" class="input-field" placeholder="Task 2">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Права колонка: Дні тижня -->
+        <div class="days">
+            <div class="day">
+                <h3>Monday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+            <div class="day">
+                <h3>Tuesday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+            <div class="day">
+                <h3>Wednesday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+            <div class="day">
+                <h3>Thursday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+            <!-- Об'єднані Saturday та Sunday -->
+            <div class="day weekend">
+                <h3>Saturday</h3>
+                <textarea class="input-field"></textarea>
+                <h3>Sunday</h3>
+                <textarea class="input-field"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

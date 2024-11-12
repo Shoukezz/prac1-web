@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.weekly-planner {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* 1 колонка для задач, 4 для днів тижня */
+    gap: 20px;
+    width: calc(100% - 40px);
+    max-width: 1600px;
+    background-color: #ffffff;
+    border: 5px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Три колонки: заголовок, поля вводу, чекбокси */
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    gap: 20px;
+}
+
+.week-of,
+.habit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 2.5em;
+    justify-self: start;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: column; /* Чекбокси вирівняні вертикально */
+    align-items: flex-end;
+    justify-self:end; /* Вирівнювання чекбоксів по правому краю */
+}
+
+.input-field {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 150px; /* Встановлена ширина полів вводу */
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    background-color: rgb(56, 159, 139);
+}
+
+.left-column h2 {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Три колонки для днів тижня */
+    grid-template-rows: repeat(2, 1fr); /* Два ряди для днів */
+    gap: 1px;
+}
+
+.day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white; /* Додав для фона */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+textarea.input-field {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.5;
+}
